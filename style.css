@@ -1,0 +1,43 @@
+body{
+    min-width: 300px;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#header{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+#savebtn{
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: greenyellow;
+    font-size: large;
+}
+
+#savebtn:hover{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+}
+
+#showbtn{
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: greenyellow;
+    font-size: large;
+}
+
+#showbtn:hover{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+}

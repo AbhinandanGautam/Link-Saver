@@ -1,0 +1,14 @@
+{
+    "name":"Link Saver",
+    "version": "1.0.0",
+    "description": "Extension to save favourite links.",
+    "manifest_version": 3,
+    "author": "Abhinandan Gautam",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
